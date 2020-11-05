@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#contenuto{
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#contenuto > .row{
+  width: 100%;
+  border: 1px solid black;
+}
+
+.row .sezione{
+  padding: 10px;
+  display: inline-block;
+}
