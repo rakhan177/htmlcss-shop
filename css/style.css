@@ -9,12 +9,25 @@
   width: 1000px;
 }
 
-#contenuto > .row{
-  width: 100%;
-  border: 1px solid black;
+.row .sezione{
+  padding: 20px 5px;
+  display: inline-block;
+  position: relative;
 }
 
-.row .sezione{
-  padding: 10px;
-  display: inline-block;
+.sconto{
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  background-color: green;
+}
+
+.cuore{
+  /* display: none; */
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: red;
+  font-size: 20px;
 }
